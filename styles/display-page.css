@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+main {
+  font-size: 0;
+}
+
+.outer-box {
+  margin-top: 90px;
+}
+
+.center {
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.inline {
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.first-row {
+  height: 200px;
+}
+
+.second-row {
+  height: 300px;
+}
+
+.inline-green {
+  background-color: green;
+  width: 50%;
+}
+
+.inline-blue {
+  background-color: blue;
+  width: 50%;
+}
+
+.inline-grey {
+  background-color: grey;
+  width: 33.333%;
+}
+
+.inline-black {
+  background-color: black;
+  width: 33.333%;
+}
+
+.inline-orange {
+  background-color: orange;
+  width: 33.333%;
+}
